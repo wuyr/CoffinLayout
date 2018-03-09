@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CoffinLayout">
+        <attr name="lid_offset" format="dimension" />
+        <attr name="lid_elevation" format="dimension" />
+        <attr name="trigger_open_offset" format="dimension" />
+        <attr name="residual_view" format="reference" />
+        <attr name="header_view" format="reference" />
+        <attr name="transition_color" format="color" />
+        <attr name="top_bar" format="reference"/>
+        <attr name="bottom_bar" format="reference"/>
+    </declare-styleable>
+</resources>

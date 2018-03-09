@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.test.viewtest.views.CoffinLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coffin_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    app:bottom_bar="@layout/bottom_bar"
+    app:header_view="@layout/header_view"
+    app:lid_elevation="8dp"
+    app:lid_offset="240dp"
+    app:residual_view="@layout/residual_view"
+    app:top_bar="@layout/top_bar"
+    app:trigger_open_offset="100dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_0" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/bottom_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/top_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/horizontal_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@android:color/white" />
+
+    </LinearLayout>
+</com.test.viewtest.views.CoffinLayout>
