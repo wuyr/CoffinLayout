@@ -16,3 +16,5 @@
 ###    <YourLidView />
 ###
 ### </com.test.viewtest.views.CoffinLayout>
+
+![preview](https://github.com/wuyr/CoffinLayout/raw/master/preview.gif)
