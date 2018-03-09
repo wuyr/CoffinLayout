@@ -1,6 +1,7 @@
 # CoffinLayout
 ## 仿燃兔APP的游戏详情界面
 ## 只需一个CoffinLayout
+``` 
  <com.test.viewtest.views.CoffinLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:bottom_bar="@layout/bottom_bar"
@@ -17,4 +18,5 @@
 
  </com.test.viewtest.views.CoffinLayout>
 
+``` 
 ![preview](https://github.com/wuyr/CoffinLayout/raw/master/preview.gif)
