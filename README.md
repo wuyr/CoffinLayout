@@ -1,6 +1,6 @@
 # CoffinLayout
 ## 仿燃兔APP的游戏详情界面
-## 详细见: blog.csdn.net/u011387817/article/details/79552699
+## 详细见: http://blog.csdn.net/u011387817/article/details/79552699
 ## 只需一个CoffinLayout
 ``` 
  <com.test.viewtest.views.CoffinLayout xmlns:android="http://schemas.android.com/apk/res/android"
